@@ -1,0 +1,32 @@
+{
+  "name": "simplify-commerce",
+  "version": "1.10.0",
+  "description": "Simplify Commerce Node.js SDK",
+  "main": "./dist/simplify.js",
+  "scripts": {
+    "build": "tsc && denoify"
+  },
+  "keywords": [
+    "Simplify",
+    "Payments",
+    "Credit",
+    "Card",
+    "SDK",
+    "API"
+  ],
+  "files": [
+    "dist/",
+    "!dist/test/",
+    "!dist/tsconfig.tsbuildinfo"
+],
+  "author": "Simplify Commerce",
+  "license": "See license.txt",
+  "dependencies": {
+    "jws": "3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3",
+    "denoify": "^1.1.4",
+    "@types/node": "^18.7.18"
+  }
+}
